@@ -3,8 +3,17 @@
 
 	[general.alerts]
 		mineshaft_notification = true
+		mining_ability_notification = true
+
+	[general.mining_ability]
+		mineshaft_notification = true
+		mining_ability_gui = true
+
+	[general.waypoints]
+		shaft_entrance_waypoint = 1
 
 	[general.auto_warp]
+		alternate_transfer_command = ".transfer"
 		shaft_auto_warp = true
 		transfer_command = true
 

@@ -7,3 +7,10 @@ registerWhen(
     }).setCriteria("WOW! You found a Glacite Mineshaft portal!"),
     () => Settings.shaftAlert
 )
+
+registerWhen(
+    register("chat", (ability) => {
+        Client.showTitle(`&b${ability}`, "", 1, 20, 1)
+    }).setCriteria("${ability} is now available!"),
+    () => Settings.abilityAlert
+)

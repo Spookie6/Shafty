@@ -1,5 +1,7 @@
 import './src/features/autowarp';
 import './src/features/notifications';
+import './src/features/abilityCooldown';
+import './src/features/entranceWaypoint';
 
 import { setRegisters } from "./src/util/functions";
 import { data } from "./data";
