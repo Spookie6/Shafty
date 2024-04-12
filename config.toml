@@ -1,0 +1,10 @@
+
+[general]
+
+	[general.alerts]
+		mineshaft_notification = true
+
+	[general.auto_warp]
+		shaft_auto_warp = true
+		transfer_command = true
+

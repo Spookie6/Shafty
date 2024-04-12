@@ -1,0 +1,9 @@
+{
+	"name": "Shafty",
+	"author": "Dartholomaeus",
+	"creator": "Dartholomaeus",
+	"description": "minors",
+	"entry": "index.js",
+	"version": "0.0.0",
+	"requires": ["axios", "BeaconBeam", "PogData", "RenderLib", "Vigilance"]
+}
